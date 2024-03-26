@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InficareTaskProject.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<Customer, IdentityRole, string>
+    public class ApplicationDbContext : IdentityDbContext<Student, IdentityRole, string>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
@@ -17,7 +17,7 @@ namespace InficareTaskProject.Data
             base.OnModelCreating(builder);
         }
 
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Student> Students { get; set; }
         public DbSet<Bank> Banks { get; set; }
     }
     }

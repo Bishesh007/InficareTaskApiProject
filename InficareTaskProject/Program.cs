@@ -25,7 +25,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 // add identity
-builder.Services.AddIdentity<Customer, IdentityRole>()
+builder.Services.AddIdentity<Student, IdentityRole>()
         .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddSingleton<IJwtTokenManager, JwtTokenManager>();
@@ -80,6 +80,14 @@ builder.Services.AddSwaggerGen(opt =>
         }
     });
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder => builder
+        .AllowAnyOrigin()    // Allow requests from any origin
+        .AllowAnyMethod()    // Allow any HTTP method
+        .AllowAnyHeader());  // Allow any header
+});
+
 
 var app = builder.Build();
 
@@ -94,6 +102,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
+app.UseCors("CorsPolicy");
 
 app.MapControllers();
 
