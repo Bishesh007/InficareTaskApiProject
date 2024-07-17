@@ -10,5 +10,7 @@ namespace InficareTaskProject.Entities
         public string Section { get; set; }
         public int Age { get; set; }
         public string Address { get; set; }
+        public ICollection<StudentSubject> StudentSubjects { get; set; }
+
     }
 }

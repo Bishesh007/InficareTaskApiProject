@@ -1,7 +1,9 @@
 using InficareTaskProject.Classes;
+using InficareTaskProject.Core.Permission;
 using InficareTaskProject.Data;
 using InficareTaskProject.Entities;
 using InficareTaskProject.Interfaces;
+using InficareTaskProject.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -25,10 +27,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 // add identity
-builder.Services.AddIdentity<Student, IdentityRole>()
+builder.Services.AddIdentity<Student, Role>()
         .AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddSingleton<IJwtTokenManager, JwtTokenManager>();
+builder.Services.AddScoped<IJwtTokenManager, JwtTokenManager>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -36,6 +38,7 @@ builder.Services.AddAuthentication(options =>
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultForbidScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+
 })
                .AddJwtBearer(options =>
                {
@@ -54,6 +57,32 @@ builder.Services.AddAuthentication(options =>
                    };
                });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy(PermissionTypes.CreateStudent, policy =>
+    policy.RequireClaim("permissions", PermissionTypes.CreateStudent));
+
+    options.AddPolicy(PermissionTypes.GetStudent, policy =>
+    policy.RequireClaim("permissions", PermissionTypes.GetStudent));   
+    
+    options.AddPolicy(PermissionTypes.UpdateStudent, policy =>
+    policy.RequireClaim("permissions", PermissionTypes.UpdateStudent)); 
+    
+    options.AddPolicy(PermissionTypes.DeleteStudent, policy =>
+    policy.RequireClaim("permissions", PermissionTypes.DeleteStudent));
+
+    //options.AddPolicy(PermissionTypes.CreateRole, policy =>
+    //policy.RequireClaim("permissions", PermissionTypes.CreateRole));
+
+    //options.AddPolicy(PermissionTypes.UpdateRole, policy =>
+    //policy.RequireClaim("permissions", PermissionTypes.UpdateRole));
+
+    //options.AddPolicy(PermissionTypes.GetRole, policy =>
+    //policy.RequireClaim("permissions", PermissionTypes.GetRole));
+
+    //options.AddPolicy(PermissionTypes.DeleteRole, policy =>
+    //policy.RequireClaim("permissions", PermissionTypes.DeleteRole));
+});
 
 builder.Services.AddSwaggerGen(opt =>
 {
@@ -105,5 +134,7 @@ app.UseAuthorization();
 app.UseCors("CorsPolicy");
 
 app.MapControllers();
+await DbInitializer.InitializeAsync(app.Services);
+
 
 app.Run();

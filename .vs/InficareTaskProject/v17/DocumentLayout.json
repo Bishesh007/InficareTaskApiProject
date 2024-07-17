@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net project\\InficareTaskApiProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\core\\classes\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\core\\classes\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\viewmodels\\studentsubjectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\viewmodels\\studentsubjectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\studentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\studentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\viewmodels\\studentsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\viewmodels\\studentsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\rolepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\rolepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\core\\interfaces\\ijwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\core\\interfaces\\ijwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\services\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\services\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\increment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\increment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\entities\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\entities\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\core\\permission\\permissiontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\core\\permission\\permissiontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\viewmodels\\permissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\viewmodels\\permissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\viewmodels\\rolepermissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\viewmodels\\rolepermissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\migrations\\20220919061725_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\migrations\\20220919061725_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\viewmodels\\bankviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\viewmodels\\bankviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\migrations\\20240410081848_last-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\migrations\\20240410081848_last-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|d:\\.net project\\inficaretaskapiproject\\inficaretaskproject\\migrations\\20240410074446_latestmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58285FCF-4AA2-4E10-A381-513724098072}|InficareTaskProject\\InficareTaskProject.csproj|solutionrelative:inficaretaskproject\\migrations\\20240410074446_latestmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "InficareTaskProject\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAADQBAAAAAAAAAAAcwEIBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.26Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtTokenManager.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Core\\Classes\\JwtTokenManager.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Core\\Classes\\JwtTokenManager.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Core\\Classes\\JwtTokenManager.cs",
+              "RelativeToolTip": "InficareTaskProject\\Core\\Classes\\JwtTokenManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentSubjectViewModel.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\StudentSubjectViewModel.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\ViewModels\\StudentSubjectViewModel.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\StudentSubjectViewModel.cs",
+              "RelativeToolTip": "InficareTaskProject\\ViewModels\\StudentSubjectViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T07:13:35.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Subject.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\Subject.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Subject.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T05:02:39.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Program.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Program.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Program.cs",
+              "RelativeToolTip": "InficareTaskProject\\Program.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAQwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "InficareTaskProject\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAkwJUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:52:47.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentSubject.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\StudentSubject.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\StudentSubject.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\StudentSubject.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\StudentSubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T05:07:36.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InficareTaskProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAMwCgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentsViewModel.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\StudentsViewModel.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\ViewModels\\StudentsViewModel.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\StudentsViewModel.cs",
+              "RelativeToolTip": "InficareTaskProject\\ViewModels\\StudentsViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T09:38:02.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\ViewModels\\RoleViewModel.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\RoleViewModel.cs",
+              "RelativeToolTip": "InficareTaskProject\\ViewModels\\RoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:06:07.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\Student.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Student.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T04:39:20.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RolePermissions.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\RolePermissions.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\RolePermissions.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\RolePermissions.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\RolePermissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T04:39:16.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\Role.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Role.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:01:11.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IJwtTokenManager.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Core\\Interfaces\\IJwtTokenManager.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Core\\Interfaces\\IJwtTokenManager.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Core\\Interfaces\\IJwtTokenManager.cs",
+              "RelativeToolTip": "InficareTaskProject\\Core\\Interfaces\\IJwtTokenManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "increment.sql",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\increment.sql",
+              "RelativeDocumentMoniker": "InficareTaskProject\\increment.sql",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\increment.sql",
+              "RelativeToolTip": "InficareTaskProject\\increment.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-04T09:31:04.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Services\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Services\\DbInitializer.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Services\\DbInitializer.cs",
+              "RelativeToolTip": "InficareTaskProject\\Services\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:03:25.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240410081848_last-migration.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\20240410081848_last-migration.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Migrations\\20240410081848_last-migration.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\20240410081848_last-migration.cs",
+              "RelativeToolTip": "InficareTaskProject\\Migrations\\20240410081848_last-migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:18:48.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Permissions.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\Permissions.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Permissions.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\Permissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAtwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T04:38:04.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240410074446_LatestMigration.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\20240410074446_LatestMigration.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Migrations\\20240410074446_LatestMigration.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\20240410074446_LatestMigration.cs",
+              "RelativeToolTip": "InficareTaskProject\\Migrations\\20240410074446_LatestMigration.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T07:44:46.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Bank.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Entities\\Bank.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Entities\\Bank.cs",
+              "RelativeToolTip": "InficareTaskProject\\Entities\\Bank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "InficareTaskProject\\appsettings.Development.json",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\appsettings.Development.json",
+              "RelativeToolTip": "InficareTaskProject\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-09T12:50:38.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\appsettings.json",
+              "RelativeDocumentMoniker": "InficareTaskProject\\appsettings.json",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\appsettings.json",
+              "RelativeToolTip": "InficareTaskProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-28T05:32:49.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PermissionViewModel.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\PermissionViewModel.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\ViewModels\\PermissionViewModel.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\PermissionViewModel.cs",
+              "RelativeToolTip": "InficareTaskProject\\ViewModels\\PermissionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:41:36.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PermissionTypes.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Core\\Permission\\PermissionTypes.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Core\\Permission\\PermissionTypes.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Core\\Permission\\PermissionTypes.cs",
+              "RelativeToolTip": "InficareTaskProject\\Core\\Permission\\PermissionTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T11:51:45.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RolePermissionViewModel.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\RolePermissionViewModel.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\ViewModels\\RolePermissionViewModel.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\RolePermissionViewModel.cs",
+              "RelativeToolTip": "InficareTaskProject\\ViewModels\\RolePermissionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T17:37:50.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Controllers\\BankController.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Controllers\\BankController.cs",
+              "RelativeToolTip": "InficareTaskProject\\Controllers\\BankController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:52:05.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "InficareTaskProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAACUAAACATDMzM7MqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20220919061725_Init.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\20220919061725_Init.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\Migrations\\20220919061725_Init.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\Migrations\\20220919061725_Init.cs",
+              "RelativeToolTip": "InficareTaskProject\\Migrations\\20220919061725_Init.cs",
+              "ViewState": "AQIAABgAAACAQzMzMzMiwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BankViewModel.cs",
+              "DocumentMoniker": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\BankViewModel.cs",
+              "RelativeDocumentMoniker": "InficareTaskProject\\ViewModels\\BankViewModel.cs",
+              "ToolTip": "D:\\.net project\\InficareTaskApiProject\\InficareTaskProject\\ViewModels\\BankViewModel.cs",
+              "RelativeToolTip": "InficareTaskProject\\ViewModels\\BankViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:32:49.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

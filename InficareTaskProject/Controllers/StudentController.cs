@@ -14,18 +14,19 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using InficareTaskProject.Core.Permission;
 
 namespace InficareTaskProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class StudentController : ControllerBase
     {
         private readonly UserManager<Student> _userManager;
         private readonly SignInManager<Student> _signInManager;
         private readonly IJwtTokenManager _jwtTokenManager;
-
-
         private readonly ApplicationDbContext _context;
         public StudentController(
                                     UserManager<Student> userManger,
@@ -44,38 +45,47 @@ namespace InficareTaskProject.Controllers
         public async Task<ResponseModel> CreateStudent(StudentsViewModel user)
         {
             var response = new ResponseModel();
-            var student = new Student
+            try
             {
-                UserName = user.UserName,
-                //Email = user.Email,
-                PhoneNumber = user.PhoneNumber,
-                Email = user.Email,
-                Class = user.Class,
-                RollNo = user.RollNo,
-                Section = user.Section,
-                Age = user.Age,
-                Address = user.Address
+                var student = new Student
+                {
+                    UserName = user.UserName,
+                    PhoneNumber = user.PhoneNumber,
+                    Email = user.Email,
+                    Class = user.Class,
+                    RollNo = user.RollNo,
+                    Section = user.Section,
+                    Age = user.Age,
+                    Address = user.Address
 
-            };
+                };
 
-            IdentityResult result = await _userManager.CreateAsync(student, user.Password);
+                IdentityResult result = await _userManager.CreateAsync(student, user.Password);
+                await _userManager.AddToRoleAsync(student, "User");
 
-            if (!result.Succeeded)
+
+                if (!result.Succeeded)
+                {
+                    response.errorMessage = result.Errors.Select(x => x.Description).First();
+                    response.isSuccess = false;
+                }
+                else
+                {
+                    response.errorMessage = "";
+                    response.isSuccess = true;
+                    response.message = "User created Successfully";
+                }
+                return response;
+
+            }
+            catch (Exception ex)
             {
-                response.errorMessage = result.Errors.Select(x => x.Description).First();
+                response.errorMessage = ex.Message;
                 response.isSuccess = false;
-            }
-            else
-            {
-                response.errorMessage = "";
-                response.isSuccess = true;
-                response.message = "User created Successfully";
-
+                return response;
             }
 
-            return response;
         }
-
 
         [HttpPost("/api/students/authenticateStudent")]
         [AllowAnonymous]
@@ -97,6 +107,7 @@ namespace InficareTaskProject.Controllers
             {
                 response.errorMessage = "Wrong Password !!!";
                 response.isSuccess = false;
+                return response;
 
             }
             var token = _jwtTokenManager.GenerateToken(identityUser);
@@ -110,11 +121,10 @@ namespace InficareTaskProject.Controllers
 
         [HttpGet]
         [Route("/api/students/getStudents")]
-        [Authorize]
+        [Authorize(PermissionTypes.GetStudent)]
         public async Task<ActionResult<List<StudentsViewModel>>> GetAllStudents()
         {
-            var getCustomerQuery = await _context
-                                                .Students
+            var getCustomerQuery = await _context.Students.Where(x => x.UserName != "Admin")
                                                 .Select(x => new StudentsViewModel
                                                 {
                                                     Id = x.Id,
@@ -131,28 +141,8 @@ namespace InficareTaskProject.Controllers
             return Ok(getCustomerQuery);
         }
 
-        [HttpGet]
-        [Route("/api/students/getDetailOnSearch")]
-
-        public async Task<ActionResult> GetDetailsWithPara(string userName)
-        {
-            var details = await _context.Students
-                                    .Where(x => x.UserName == userName)
-                                    .Select(x => new StudentsViewModel
-                                    {
-                                        UserName = x.UserName,
-                                        Email = x.Email,
-                                        PhoneNumber = x.PhoneNumber,
-                                        Password = x.PasswordHash,
-
-                                    }).ToListAsync();
-            return Ok(details);
-        }
-
         [HttpPost("/api/students/addStudent")]
-        //[AllowAnonymous]
-        [Authorize]
-
+        [Authorize(PermissionTypes.CreateStudent)]
         public async Task<ResponseModel> AddStudent(StudentsViewModel user)
         {
             var response = new ResponseModel();
@@ -170,6 +160,8 @@ namespace InficareTaskProject.Controllers
             };
 
             IdentityResult result = await _userManager.CreateAsync(student);
+            await _userManager.AddToRoleAsync(student, user.Role);
+
 
             if (!result.Succeeded)
             {
@@ -188,8 +180,7 @@ namespace InficareTaskProject.Controllers
         }
 
         [HttpPost("/api/students/updateStudent")]
-        [Authorize]
-
+        [Authorize(PermissionTypes.UpdateStudent)]
         public async Task<ResponseModel> UpdateStudent(StudentsViewModel updatedUser)
         {
             var response = new ResponseModel();
@@ -230,8 +221,7 @@ namespace InficareTaskProject.Controllers
         }
 
         [HttpDelete("/api/students/deleteStudent/{id}")]
-        [Authorize]
-
+        [Authorize(PermissionTypes.DeleteStudent)]
         public async Task<ResponseModel> DeleteStudent(string id)
         {
             var response = new ResponseModel();
@@ -262,8 +252,88 @@ namespace InficareTaskProject.Controllers
             return response;
         }
 
+        [HttpGet]
+        [Route("/api/students/getDetailOnSearch")]
+        public async Task<ActionResult> GetDetailsWithPara(string userName)
+        {
+            var details = await _context.Students
+                                    .Where(x => x.UserName == userName)
+                                    .Select(x => new StudentsViewModel
+                                    {
+                                        UserName = x.UserName,
+                                        Email = x.Email,
+                                        PhoneNumber = x.PhoneNumber,
+                                        Password = x.PasswordHash,
+
+                                    }).ToListAsync();
+            return Ok(details);
+        }
+
+        [HttpGet]
+        [Route("/api/students/getAllSubject")]
+        public async Task<ActionResult> GetAllSubject()
+        {
+            var subjectList = await _context.Subjects.ToListAsync();
+
+            return Ok(subjectList);
+        }
+
+        [HttpPost]
+        [Route("/api/students/addStudentSubject")]
+        [AllowAnonymous]
+        public async Task<ResponseModel> AddStudentSubject(StudentSubjectViewModel studentSubject)
+        {
+            var response = new ResponseModel();
+            try
+            {
+                foreach (var subjectList in studentSubject.SubjectList)
+                {
+                    // Check if the entry already exists in the database
+                    var existingEntry = await _context.StudentSubjects
+                        .FirstOrDefaultAsync(ss => ss.StudentId == studentSubject.StudentId && ss.SubjectId == subjectList.Id);
+
+                    if (existingEntry == null)
+                    {
+                        // Entry doesn't exist, add it to the database
+                        var subject = new StudentSubject
+                        {
+                            StudentId = studentSubject.StudentId,
+                            SubjectId = subjectList.Id,
+                        };
+                        await _context.StudentSubjects.AddAsync(subject);
+                        await _context.SaveChangesAsync();
+                    }
+                }
+                response.errorMessage = "";
+                response.isSuccess = true;
+                response.message = "User Assign Subject Successfully";
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.errorMessage = ex.Message;
+                response.isSuccess = false;
+                return response;
+            }
+        }
+
+        [HttpGet]
+        [Route("/api/students/getSubjectAssociatedWithUser/{id}")]
+        public async Task<ActionResult> GetSubjectAs(string id)
+        {
+            var subjectList = await (from s in _context.Subjects
+                                     join studentSubject in _context.StudentSubjects.Where(x => x.StudentId == id) on s.Id equals studentSubject.SubjectId into temp
+                                     from t in temp.DefaultIfEmpty()
+                                     select new SubjectViewModel
+                                     {
+                                         Name = s.Name,
+                                         Id = s.Id,
+                                         IsSelected = t == null ? false : true
+                                     }).ToListAsync();
+
+            return Ok(subjectList);
+        }
     }
-
-
 }
+
 
